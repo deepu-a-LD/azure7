@@ -1,2 +1,2 @@
 # spring-demo-azure
-Azure build deploy
+Spring boot application to Azure - build deploy
