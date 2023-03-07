@@ -10,12 +10,12 @@ import java.io.PrintWriter;
 @Service
 public class azureService {
 //    Float.MAX_VALUE
-    public void check(float num) throws IOException {
+    public void check(int num) throws IOException {
         File file = new File("countfile.txt");
         FileWriter fw = new FileWriter(file);
         PrintWriter pw = new PrintWriter(fw);
 
-        for(float i=num; i<=Float.MAX_VALUE;i++){
+        for(int i=num; i<=1000000000;i++){
             System.out.println("working  " + i);
             pw.println(i);
         }

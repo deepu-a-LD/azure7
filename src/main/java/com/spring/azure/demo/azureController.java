@@ -14,7 +14,7 @@ public class azureController {
     azureService serv;
 
     @GetMapping("/message")
-    public void test(@RequestParam float num) throws IOException {
+    public void test(@RequestParam int num) throws IOException {
         serv.check(num);
         //return "App deployed";
 
